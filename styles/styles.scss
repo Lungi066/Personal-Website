@@ -253,7 +253,8 @@ section{
                 transform: translateY(-5px);
                 border: 1px solid var(--color-secondary);
                 box-shadow: 1px 4px 15px rgba(0,0,0,.32);
-            }.abt-text{
+            }
+            .abt-text{
                 padding: 1.5rem;
                 display: flex;
                 flex-direction: column;
@@ -333,28 +334,34 @@ section{
                     }
 
                     .javascript{
-                        width: 10%;
-                    }
-                    .html5{
-                        width: 40%;
-                    }
-                    .css3{
-                        width: 30%;
-                    }
-                    .react.js{
-                        width: 5%;
-                    }
-                    .node.js{
-                        width: 5%;
+                        width: 65%;
                     }
                     .python{
-                        width: 15%;
+                        width: 65%;
+                    }
+                    .nodejs{
+                        width: 70%;
                     }
                     .django{
-                        width: 5%;
+                        width: 80%;
+                    }
+                    .reactjs{
+                        width: 70%;
+                    }
+                    .flask{
+                        width: 80%;
+                    }
+                    .html5{
+                        width: 70%;
                     }
                     .mysql{
-                        width: 5%;
+                        width: 80%;
+                    }
+                    .css3{
+                        width: 70%;
+                    }
+                    .sass{
+                        width: 90%;
                     }
                 }
             }
