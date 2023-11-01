@@ -215,7 +215,7 @@
                         <i class="fa-solid fa-briefcase"></i>
                     </div>
                     <p class="tl-duration">March 2023</p>
-                    <h5> My very first big project<span></span></h5>
+                    <h5> My very first large project<span></span></h5>
                     <p>
                         Built the biggest project i had ever built at the time, which is this website that you're currently browsing. My personal website.
                     </p>
@@ -228,6 +228,16 @@
                     <h5> Harvardx CS50x edx.org<span></span></h5>
                     <p>
                         Decided to take the Harvardx CS50x Introduction to computer science course on edx.org
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Oct 2023</p>
+                    <h5> My second large project<span></span></h5>
+                    <p>
+                        The first time i've ever written over 2000 lines of code
                     </p>
                 </div>
             </div>
@@ -480,19 +490,19 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="mailto:info@lungisaningcobo.com" class="contact-form" method="POST">
+                        <form id="formSubmit" action="https://formspree.io/f/xzblwpze" class="contact-form" method="post">
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
+                                <input name="Name" type="text" required placeholder="YOUR NAME">
+                                <input name="Email" type="email" required placeholder="YOUR EMAIL">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT" name="subject">
+                                <input name="Subject" type="text" required placeholder="ENTER SUBJECT">
                             </div>
                             <div class="input-control">
-                                <textarea name="body" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                <textarea name="Message" cols="15" rows="8" required placeholder="MESSAGE HERE..."></textarea>
                             </div>
                             <div class="submit-btn">
-                                <a type="submit" value="send" class="main-btn">
+                                <a id="formSubmit" type="submit" class="main-btn">
                                     <span class="btn-text">Submit</span>
                                     <span class="btn-icon"><i class="fa-solid fa-arrow-up"></i></span>
                                 </a>
