@@ -41,6 +41,8 @@ function pageTransitions(){
         element.classList.toggle('light-mode')
     })
 }
+
+//a tag submit button
 document.getElementById('formSubmit').onclick = function() {
         document.getElementById('formSubmit').submit();
     }

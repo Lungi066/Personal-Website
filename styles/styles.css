@@ -668,7 +668,7 @@ section {
 
 .main-btn {
   border-radius: 30px;
-  color: inherit;
+  background-color: inherit;
   font-weight: 600;
   position: relative;
   border: 1px solid var(--color-secondary);
@@ -677,9 +677,11 @@ section {
   display: flex;
   align-items: center;
   overflow: hidden;
+  color: inherit;
 }
 .main-btn .btn-text {
   padding: 0 2rem;
+  font-size: 1.1rem;
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
