@@ -621,6 +621,15 @@ section{
                 line-height: 2rem;
                 padding-bottom: 1rem;
             }
+            h5{
+                &:hover{
+                    color: var(--color-secondary);
+                }
+            }
+            .h5-container{
+                display: flex;
+                justify-content: space-between;
+            }
         }
     }
 }
@@ -697,5 +706,6 @@ section{
        }
     }
 }
+
 
 @import './media';

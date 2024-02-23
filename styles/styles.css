@@ -611,6 +611,13 @@ section {
   line-height: 2rem;
   padding-bottom: 1rem;
 }
+.blogs .blog .blog-text h5:hover {
+  color: var(--color-secondary);
+}
+.blogs .blog .blog-text .h5-container {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*Independent Components*/
 .btn-con {
